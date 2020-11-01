@@ -3,11 +3,11 @@
 Siguiendo el tutorial:
 [MERN STACK & Typescript - Frontend](https://www.youtube.com/watch?v=wOLo-B7mrZM&t=95s).
 
-# Getting Started with Create React App
+# Create React App
 
 Proyecto creado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts
 
 Ejecutar el siguiente comando para iniciar el front:
 
