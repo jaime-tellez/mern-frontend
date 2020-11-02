@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { IVideo } from "./Video";
 
-const API = "http://localhost:5000/videos";
+const API = process.env.API_URL || "http://localhost:5000/videos";
 
 export const getVideos = () => {
   return Axios.get<IVideo[]>(`${API}`);
