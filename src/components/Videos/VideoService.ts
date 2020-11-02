@@ -4,6 +4,7 @@ import { IVideo } from "./Video";
 const API = process.env.API_URL;
 
 export const getVideos = () => {
+  console.log("API", API);
   return Axios.get<IVideo[]>(`${API}`);
 };
 
