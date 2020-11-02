@@ -26,3 +26,15 @@ Ejecutar el siguiente comando para pruebas:
 Ejecutar el siguiente comando para compilar el código:
 
 ### `npm run build`
+
+## Despliegue en Vercel https://vercel.com
+
+1. Agregar el repositorio de GitHub y darle permisos a Vercel sobre el repositorio.
+2. El despliegue lo realiza automáticamente Vercel.
+3. Ingresar al sitio web dado por Vercel.. https://mern-frontend.vercel.app/
+
+## Variables de entorno
+
+1. Para configurar las variables de entorno en React, https://create-react-app.dev/docs/adding-custom-environment-variables/
+2. Los nombres siempre deben empezar por `REACT_PP_`
+3. Dentro de Vercel, ingresar al proyecto y en la pestaña de `settings` ir a la opción `Environment Variables`
